@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head class="head">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style/style3.css">
+        <title class="title">PinkForm</title>
+    </head>
+    <body class="body">
+        <header class="header">
+            <nav class="header__nav-bar">
+                <img class="header__nav-bar--list--logo" title="logo" src="../images/logotype-white-desktop.svg">
+                <li class="header__nav-bar--list"><a class="header__nav-bar--list-links" href="../index.html">Главная</a></li>
+                <li class="header__nav-bar--list"><a class="header__nav-bar--list-links" href="../html/index2.html">Фотографии</a></li>
+                <li class="header__nav-bar--list"><a class="header__nav-bar--list-links" href="../html/index3.html">Конкурс</a></li>
+                <li class="header__nav-bar--list"><a class="header__nav-bar--list-links" href="https://www.htmlacademy.ru">HTML Academy</a></li>
+            </nav>
+            <div class="header__h1"><h1 class="header__h1-text">Конкурс на самое безбашенное путешествие с Пинк</h1></div>
+        </header>
+        <section class="header-tablet">
+            <div class="header__menu">
+                <img class="header__logo" title="tablet_logo" src="../images/logotype-white-tablet.svg">
+                <button class="header__menu-button-click" title="menu" tabindex="1"></button>
+                <div class="header__menu--options">
+                    <a class="header__menu--option-1" href="../index.html" tabindex="1">Главная</a>
+                    <a class="header__menu--option-2" href="../html/index2.html" tabindex="1">Фотографии</a>
+                    <a class="header__menu--option-3" href="../html/index3.html" tabindex="1">Конкурс</a>
+                    <a class="header__menu--option-4" href="https://www.htmlacademy.ru" tabindex="1">HTML academy</a>
+                </div>
+            </div>
+            <div class="footer__header"><h2 class="footer__header--h2">Конкурс на самое безбашенное путешествие с Пинк</h2></div>
+        </section>
+        <section class="header__mobile--section">
+            <div class="header__mobile--menu">
+                <img class="header__mobile--logo" title="mobile_logo" src="../images mobile/pink.svg">
+                <button class="header__mobile--menu-button-click" title="menu_btn" tabindex="1"></button>
+                <div class="header__mobile--menu--options">
+                    <a class="header__mobile--menu--option-1" href="../index.html" tabindex="1">Главная</a>
+                    <a class="header__mobile--menu--option-2" href="../html/index2.html" tabindex="1">Фотографии</a>
+                    <a class="header__mobile--menu--option-3" href="../html/index3.html" tabindex="1">Конкурс</a>
+                    <a class="header__mobile--menu--option-4" href="https://www.htmlacademy.ru" tabindex="1">HTML academy</a>
+                </div>
+            </div>
+            <div class="header__mobile--section--middle-part"><h2 class="header__mobile--section--description-of-main-content">Конкурс на самое безбашенное путешествие с Пинк</h2></div>
+        </section>
+        <main class="main">
+            <form class="form">
+                <section class="main__form--section-1"><h2 class="main__form--section-1--h2">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</h2></section>
+                <section class="main__form--section-2">
+                    <div class="main__form--section-2--block-1">
+                        <label class="main__form--section-2--block-1--label-1">Фамилия:<input class="main__form--section-2--block-1--label-1--type-surname" type="text" placeholder="Укажите вашу фамилию *" required></label>
+                        <label class="main__form--section-2--block-1--label-2">Имя:<input class="main__form--section-2--block-1--label-2--type-name" type="text" placeholder="Введите ваше имя *" required></label>
+                        <label class="main__form--section-2--block-1--label-3">Отчество:<input class="main__form--section-2--block-1--label-3--type-patronym" type="text" placeholder="Ну и отчество тоже"></label>
+                    </div>
+                    <div class="main__form--section-2--block-2">
+                        <fieldset class="main__form--section-2--block-2--fielset">
+                            <legend class="main__form--section-2--block-2--fieldset--legend-text">с каким приложением вы путешествовали?</legend>
+                            <label class="main__form--section-2--block-2--fieldset--label-1"><input class="main__form--section-2--block-2--fieldset--label-1--radio-1" type="radio" name="form" for="ios" tabindex="1" checked>Pink для iOS</label>
+                            <label class="main__form--section-2--block-2--fieldset--label-2"><input class="main__form--section-2--block-2--fieldset--label-2--radio-2" type="radio" name="form" for="ios" tabindex="1">Pink на Android</label>
+                            <label class="main__form--section-2--block-2--fieldset--label-3"><input class="main__form--section-2--block-2--fieldset--label-3--radio-3" type="radio" name="form" for="ios" tabindex="1">Windows Phone</label>
+                        </fieldset>
+                    </div>
+                </section>
+                <section class="main__form--section-3">
+                    <fieldset class="main__form--section-3--fieldset">
+                        <legend class="main__form--section-3--fieldset--legend-text">контактная информация</legend>
+                        <div class="main__form--section-3--fieldset--block-1">
+                            <input class="main__form--section-3--fieldset--block-1--input" type="tel" placeholder="Номер, пожалуйста">
+                            <label class="main__form--section-3--fieldset--block-1--label">номер телефона</label>
+                            <img title="phone_icon" src="../images/phone icon.svg">
+                        </div>
+                        <div class="main__form--section-3--fieldset--block-2">
+                            <input class="main__form--section-3--fieldset--block-2--input" type="email" placeholder="Введите почту *" required>
+                            <label class="main__form--section-3--fieldset--block-2--label">адрес почты</label>
+                            <img title="mail_icon" src="../images/mail icon.svg">
+                        </div>
+                    </fieldset>
+                </section>
+                <section class="main__form--section-4">
+                    <fieldset class="main__form--section-4--fieldset">
+                        <legend class="main__form--section-4--fieldset--legend-text">Ваши безбашенные достижения в путешествии</legend>
+                        <label class="main__form--section-4--fieldset--label-1"><input class="main__form--section-4--fieldset--label-1--checkbox" type="checkbox">Сделал селфи с акулой</label>
+                        <label class="main__form--section-4--fieldset--label-2"><input class="main__form--section-4--fieldset--label-2--checkbox" type="checkbox">Видел Чака Норриса</label>
+                        <label class="main__form--section-4--fieldset--label-3"><input class="main__form--section-4--fieldset--label-3--checkbox" type="checkbox">Удержал башню</label>
+                        <label class="main__form--section-4--fieldset--label-4"><input class="main__form--section-4--fieldset--label-4--checkbox" type="checkbox">Обгорел на пляже</label>
+                        <label class="main__form--section-4--fieldset--label-5"><input class="main__form--section-4--fieldset--label-5--checkbox" type="checkbox">Накупил сувениров</label>
+                        <label class="main__form--section-4--fieldset--label-6"><input class="main__form--section-4--fieldset--label-6--checkbox" type="checkbox">Разгромил отель</label>
+                    </fieldset> 
+                </section>
+                <section class="main__form--section-5">
+                    <fieldset class="main__form--section-5--fieldset">
+                        <legend class="main__form--section-5--fieldset--legend-text">Опишите свои эмоции</legend>
+                        <textarea class="main__form--section-5--fieldset--share-your-emotions" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+                    </fieldset>
+                    <div class="main__form--section-5--submit-block">
+                        <button class="main__form--section-5--submit-block--submit-button" type="submit">отправить форму</button>
+                        <label class="main__form--section-5--submit-block--label">*</label><p class="main__from--section-5--submit-block--label-description"> — обязательные для заполнения поля</p>
+                    </div>
+                </section>
+            </form>
+        </main>
+        <footer class="footer" name="the last part of this webpage">
+            <div class="footer__logo"><img title="footer_logo" src="../images/logotype blue desktop.svg"></div>
+            <div class="footer__nav-block">
+                <a class="footer__nav-block--link-1" href="https://www.twitter.com" tabindex="1"></a>
+                <a class="footer__nav-block--link-2" href="https://www.facebook.com" tabindex="1"></a>
+                <a class="footer__nav-block--link-3" href="https://www.youtube.com" tabindex="1"></a>
+            </div>
+            <div class="footer__html-academy">
+                <p class="footer__developed-by-html-academy">Разработано</p>
+                <a class="footer__html-academy-link" href="https://www.htmlacademy.ru" tabindex="1"><img title="footer_logo-2" class="footer__html-academy--logo" src="../images/html academy.svg"></a>
+            </div>
+        </footer>
+    </body>
+</html>
